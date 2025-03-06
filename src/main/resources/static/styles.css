@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f4f4f9;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.task-form {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.task-form h2, .task-list h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #6200ea;
+}
+
+.task-form input, .task-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.task-form button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.task-form button:hover {
+    background-color: #3700b3;
+}
+
+.task-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-content h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.task-content p {
+    margin: 0.5rem 0 0;
+    color: #666;
+}
+
+.task-actions button {
+    background: none;
+    border: none;
+    color: #6200ea;
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.task-actions button:hover {
+    color: #3700b3;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #6200ea;
+    color: white;
+    margin-top: 2rem;
+}
