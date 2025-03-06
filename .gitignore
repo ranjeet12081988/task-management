@@ -1,0 +1,36 @@
+# Build outputs
+/target/
+/*.jar
+/*.war
+/*.ear
+
+# IDE-specific files
+/.idea/
+/*.iml
+/.vscode/
+/.project
+/.classpath
+/.settings/
+
+# Environment-specific files
+/.env
+/*.properties
+
+# Dependency directories
+/node_modules/
+/vendor/
+
+# Logs and temporary files
+/logs/
+/*.log
+/tmp/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Maven Wrapper (if not used)
+/.mvn/wrapper/
+
+# Docker ignore (if applicable)
+/.dockerignore
