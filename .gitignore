@@ -19,7 +19,7 @@
 # Dependency directories
 /node_modules/
 /vendor/
-/wasteage/
+wasteage/*
 # Logs and temporary files
 /logs/
 /*.log
