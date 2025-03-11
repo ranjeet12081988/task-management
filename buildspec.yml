@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto11
+    commands:
+      - echo "Installing dependencies..."
+  build:
+    commands:
+      - echo "Building the Java application..."
+      - mvn clean install
+artifacts:
+  files:
+    - target/hello-world-1.0-SNAPSHOT.jar
